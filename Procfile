@@ -1,1 +1,1 @@
-web: mvn clean package && java -jar target/ROOT.war
+web: mvn clean package && java -Dserver.port=$PORT -jar target/ROOT.war
